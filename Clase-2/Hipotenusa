@@ -1,0 +1,5 @@
+function hipotenusa (a,b){
+return Math.sqrt (Math.pow (a,2) + Math.pow (b,2));
+}
+console.log ("La hipotenusa de un triangulo rectangulo de catetos 2 y 1 es: ");
+hipotenusa (2,1)

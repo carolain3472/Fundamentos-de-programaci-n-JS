@@ -1,0 +1,32 @@
+Autor: Carolain Jimenez Bedoya
+Fecha de creación: 26/02/2020
+contrato: presupmes : número,número,número -> número
+próposito: Determinar los valores del mes usando los valores del transporte
+Ejemplo: presupmes: (4400,5000,3000) -> 248000
+
+
+function presupmes (transporte, fotocopia, comida){
+  return (transporte*20) +(fotocopia*20) + (comida*20);
+}
+
+Autor: Carolain Jimenez Bedoya
+Fecha de creación: 26/02/2020
+contrato: gastomes : número, número -> número
+próposito: Determinar los gastos que tendría en el mes al empezar a ahorrar 
+Ejemplo: gastomes: (4400,3000) -> 
+
+function  gastomes (transporte, fotocopia){
+  return (transporte*12)+ (fotocopia*20);
+}
+
+Autor: Carolain Jimenez Bedoya 
+Fecha de creación: 26/02/2020
+contrato: totalmes: número, número, número -> número 
+próposito: Determinar el ahorro que se tiene en el mes al aplicar en el presupmes la resta del gastomes
+ejemplo: totalmes : (4400,3000,5000)->
+)
+function totalmes (transporte, fotocopia, comida){
+return presupmes (transporte,fotocopia, comida) - gastomes( transporte, fotocopia);
+}
+
+totalmes (4400,3000,5000)

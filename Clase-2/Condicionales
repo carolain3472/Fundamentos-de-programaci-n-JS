@@ -1,0 +1,37 @@
+próposito: Determinar si un número es negativo o positivo 
+ejemplos: posoneg : (-2)-> negativo
+
+
+function posoneg (x){
+  if (x>=0){
+    return "positivo";
+  }else{ 
+   return  "negativo"
+  }
+  
+}
+
+//contrato: program : número -> texto 
+//proposito: determinar si un numero es cerp, positivo, negativo
+
+function program (y){
+  if (y==0){
+    return "cero";
+  }else if (y>0)
+      return "positivo";
+    else{
+      return "negativo" }   
+  
+}
+
+
+ //contrato: número -> numero
+ //proposito:Para un número negativo, ejecutar el cuadrado de este y para un número positivo, ejecutar la raiz  cuadrada
+
+function cuadraiz (a){
+  if (a>0){
+    return Math.sqrt(a) ;
+  }else{
+    return Math.pow (x,2);
+  }
+}
